@@ -14,6 +14,7 @@ This sets what pokemon it is by the Pokemon's National Dex ID, and sets the leve
 ``def setAbility(str choice)``
 
 This sets what ability the Pokemon has by the three possible choices:
+
  - Ability 1
  - Ability 2
  - Hidden Ability
