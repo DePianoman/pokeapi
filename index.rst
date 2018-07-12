@@ -6,6 +6,8 @@ The Unofficial Pokemon API for Python! Powered by:
 - https://bulbapedia.bulbagarden.net
 - https://pokemondb.net/
 
+If you have any problems: E-mail me at `depianoman2004@gmail.com <mailto:depianoman2004@gmail.com`_
+
 Functions
 =========
 
