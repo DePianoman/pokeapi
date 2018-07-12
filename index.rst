@@ -3,7 +3,4 @@ PokéAPI
 
 Pokemon
 =======
- ::
-    def setPokemonByName(str name, int level)
-
-
+def setPokemonByName(str name, int level)
