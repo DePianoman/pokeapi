@@ -31,6 +31,37 @@ Functions
 	:param name: The name of the Pokemon - *str*
 	:param generation: The generation of game learnset is in - *int*
 
+.. function:: def PokemonLocations(name, game)
+
+	This function returns the locations in ``', '.join(["Location1", "Location2"])`` form
+	
+	:param name: The name of the Pokemon - *str*
+	:param game: The game you want the locations from - *str*
+
+.. function:: def PokemonTypes(name)
+
+	This function returns a list of the types of the Pokemon
+
+	:param name: The name of the Pokemon - *str*
+
+.. function:: def PokemonSprite(name)
+
+	This function returns a URL of the Pokemon's sprite
+
+	:param name: The name of the Pokemon - *str*
+ 
+.. function:: def ShinyPokemonSprite(name)
+
+	This function returns a URL of the Pokemon's Shiny sprite
+
+	:param name: The name of the Pokemon - *str*
+
+.. function:: def PokemonAbilities(name)
+
+	This function returns a 3-element list of the Abilities a Pokemon has in the order: ``[Ability1, Ability2, HiddenAbility]``
+
+	:param name: The name of the Pokemon - *str*
+
 
 Pokemon
 =======
