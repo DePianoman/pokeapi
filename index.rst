@@ -3,18 +3,32 @@ PokéAPI
 
 Pokemon
 =======
-.. function:: def setPokemonByName(str name, int level)
+.. function:: def setPokemonByName(name, level)
 
-This sets what pokemon it is by name, and sets the level.
+	This sets what pokemon it is by name, and sets the level.
 
-.. function:: def setPokemonByID(int pid, int level)
+	:param name: The name of the Pokemon - *str*
+	:param level: The level of the Pokemon - *int*
 
-This sets what pokemon it is by the Pokemon's National Dex ID, and sets the level
+.. function:: def setPokemonByID(pid, level)
 
-.. function:: def setAbility(str choice)
+	This sets what pokemon it is by the Pokemon's National Dex ID, and sets the level
 
-This sets what ability the Pokemon has by the three possible choices:
+	:param id: The id of the Pokemon - *int*
+	:param level: The level of the Pokemon - *int*
 
-- Ability 1
-- Ability 2
-- Hidden Ability
+.. function:: def setAbility(choice)
+
+	This sets what ability the Pokemon has by the three possible choices:
+
+	- Ability 1
+	- Ability 2
+	- Hidden Ability
+
+	:param choice: The chosen ability (can be ``1``, ``2``, or ``"H"``) - *int or str*
+
+.. function:: def setLevel(level)
+
+	This sets the level of the Pokemon
+	
+	:param level: The level of the Pokemon - *int*
