@@ -27,7 +27,7 @@ Functions
 
 	This function returns the Learnset in the form::
 
-		{ 1: [["Growl", 40, 0, 100, "Normal", "Status"], ["Tackle", 35, 40, 100, "Normal", "Physical"], 7: ...}
+		{ 1: [["Growl", 40, 0, 100, "Normal", "Status"], ["Tackle", 35, 40, 100, "Normal", "Physical"]], 7: ...}
 		# Level: [[Move, PP, Power, Accuracy, Type, Status/Special/Physical], [Other Move...
 
 	:param name: The name of the Pokemon - *str*
