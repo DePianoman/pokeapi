@@ -1,6 +1,36 @@
 PokéAPI
 *******
 
+The Unofficial Pokemon API for Python! Powered by:
+- https://bulbapedia.bulbagarden.net
+- https://pokemondb.net/
+
+Functions
+=========
+
+.. function:: def IDfromPokemon(name)
+
+	This function returns the name of a Pokemon from its National Dex ID
+
+	:param name: The name of the Pokemon - *str*
+
+.. function:: def PokemonfromID(pid)
+
+	This function returns the National Dex ID from a Pokemon's name
+
+	:param pid: The National Dex ID of the Pokemon - *int*
+
+.. function:: def PokemonLearnset(name, generation)
+
+	This function returns the Learnset in the form::
+
+		{ 1: [["Growl", 40, 0, 100, "Normal", "Status"], ["Tackle", 35, 40, 100, "Normal", "Physical"], 7: ...}
+		# Level: [[Move, PP, Power, Accuracy, Type, Status/Special/Physical], [Other Move...
+
+	:param name: The name of the Pokemon - *str*
+	:param generation: The generation of game learnset is in - *int*
+
+
 Pokemon
 =======
 .. function:: def setPokemonByName(name, level)
