@@ -1,11 +1,9 @@
-############
-All about me
-############
+PokéAPI
+*******
 
-I'm Daniele Procida, a Django user and developer.
+Pokemon
+=======
+ ::
+    def setPokemonByName(str name, int level)
 
-I've contributed to:
 
-*   django CMS
-*   Arkestra
-*   Django
