@@ -2,6 +2,7 @@ PokéAPI
 *******
 
 The Unofficial Pokemon API for Python! Powered by:
+
 - https://bulbapedia.bulbagarden.net
 - https://pokemondb.net/
 
